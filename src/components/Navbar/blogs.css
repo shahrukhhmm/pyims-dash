@@ -1,0 +1,91 @@
+.blogs-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+ position: absolute;
+ width: 100%;
+ top: 25%;
+    
+  }
+
+  .header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .header p {
+    margin: 10px 0 0;
+    color: #555;
+  }
+  
+  .blog-posts, .recent-posts {
+    margin: 40px 0;
+  }
+  
+  .blog-posts h2, .recent-posts h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .post {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    background-color: #fff;
+  }
+  .post img{
+    width: 14rem;
+    object-fit: cover;
+    height: 8rem;
+  }
+  
+  .post h3 {
+    margin-top: 0;
+  }
+  
+  .post a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .post a:hover {
+    text-decoration: underline;
+  }
+  
+  .recent-posts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recent-posts li {
+    margin: 10px 0;
+  }
+  
+  .recent-posts a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .recent-posts a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 2em;
+    }
+    
+    .post {
+      padding: 10px;
+    }
+  }
+  
+ 
